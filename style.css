@@ -27,7 +27,7 @@ html {
     width: 100%;
     justify-content: space-between; 
     align-items: center; 
-    padding: 20px 0;
+    padding: 2% 0;
     background-color: rgb(40, 40, 44);
 }
 
@@ -50,35 +50,35 @@ html {
 
 /* Home Page Styles */
 #Home {
-    height: 100vh; /* Full viewport height */
-    display: flex; /* Flexbox to center content */
-    justify-content: center; /* Horizontal centering */
-    align-items: center; /* Vertical centering */
-    background: linear-gradient(180deg, rgb(40, 40, 44), rgb(100, 100, 255)); /* Gradient background */
-    flex-direction: column; /* Stack content vertically (h1 and button) */
+    min-height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background: linear-gradient(180deg, rgb(40, 40, 44), rgb(100, 100, 255)); 
+    flex-direction: column; 
 }
 
 #Home h1 {
-    font-size: 48px; /* Larger font for the title */
-    margin-bottom: 20px; /* Space between the title and button */
+    font-size: 3rem; 
+    margin-bottom: 1.5rem; 
 }
 
 #Home .btn {
-    padding: 10px 20px;
-    font-size: 20px;
-    background-color: rgb(40, 40, 44); /* Button color */
+    padding: 0.8rem 1.5rem;
+    font-size: 1.25rem;
+    background-color: rgb(40, 40, 44); 
     color: white;
     text-decoration: none;
     border-radius: 5px;
 }
 
 #Home .btn:hover {
-    background-color: rgb(0, 0, 141); /* Darker blue on hover */
+    background-color: rgb(0, 0, 141); 
 }
 
 /* About Me Section */
 #About {
-    padding: 100px 20px; /* Add padding to push content down */
+    padding: 5% 5%; 
     background-color: rgb(100, 100, 255);
     display: flex;
     justify-content: center;
@@ -88,31 +88,31 @@ html {
 }
 
 #About h1 {
-    font-size: 48px;
-    margin-bottom: 20px; /* Add space below the heading */
+    font-size: 3rem;
+    margin-bottom: 1.5rem; 
 }
 
 #About p {
-    font-size: 20px;
-    max-width: 800px; /* Limit width to avoid stretching across the screen */
-    margin: 0 auto; /* Center the text */
-    line-height: 1.6;
+    font-size: 1.25rem;
+    max-width: 90%; 
+    margin: 0 auto; 
+    line-height: 1.7;
 }
 
 /* Projects Section */
 #Projects {
-    padding: 100px 20px; /* Add padding to create vertical space */
+    padding: 100px 20px; 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(100, 100, 255); /* Adjust background if needed */
+    background-color: rgb(100, 100, 255); 
     min-height: 100vh;
 }
 
 #Projects h1 {
     font-size: 48px;
-    margin-bottom: 40px; /* Space between the heading and content */
+    margin-bottom: 40px; 
 }
 
 #Projects h2{
@@ -135,7 +135,7 @@ html {
 /*Start of Contact Me Page */
 /* Contact Me Section */
 #Contacts {
-    padding: 100px 20px;
+    padding: 5% 5%;
     background: linear-gradient(360deg, rgb(40, 40, 44), rgb(100, 100, 255));
     display: flex;
     justify-content: center;
@@ -145,19 +145,19 @@ html {
 }
 
 #Contacts .SectionTitle {
-    font-size: 48px;
-    margin-bottom: 40px;
+    font-size: 3rem;
+    margin-bottom: 2rem;
     color: white;
 }
 
 /* Form Styles */
 #contactFrm {
-    max-width: 600px;
+    max-width: 80%;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.1);
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 2%;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 0.625rem rgba(0, 0, 0, 0.2);
 }
 
 /*Form Group*/
@@ -238,7 +238,7 @@ footer {
     text-align: center;     
 
     /*Padding for top and bottom of footer*/
-    padding: 20px 0;       
+    padding: 2% 0;       
 
     /*Positions footer to be at the bottom of the page*/
     position: relative;     
