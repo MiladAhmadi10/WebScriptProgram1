@@ -195,10 +195,10 @@ html {
 /* Textarea Styles */
 #contactFrm textarea {
     resize: vertical;
-    height: 120px;
+    height: 130px;
 }
 
-/* Submit Button */
+/*Submit Button*/
 #contactFrm input[type="submit"] {
     background-color: rgb(40, 40, 44);
     color: white;
@@ -211,6 +211,8 @@ html {
     transition: background-color 0.3s ease;
 }
 
+    
+/*Changes colour of button when hovering*/
 #contactFrm input[type="submit"]:hover {
     background-color: rgb(0, 0, 0);
 }
