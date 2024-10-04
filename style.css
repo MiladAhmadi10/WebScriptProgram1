@@ -227,17 +227,21 @@ footer {
 }
 
 .footer-container {
-    max-width: 800px; /* Center the content with a maximum width */
+
+    
+    max-width: 400px; /* Center the content with a maximum width */
     margin: 0 auto;   /* Center the footer */
 }
 
 footer a {
-    color: white; /* Link color */
-    text-decoration: none; /* Remove underline from links */
+    /*Colour of the link*/
+    color: white; 
+
+    /*Removes underlines from links*/
+    text-decoration: none; 
 }
 
 footer a:hover {
-    text-decoration: underline; /* Underline on hover */
+    /*Underlines on hover*/
+    text-decoration: underline; 
 }
-
-
