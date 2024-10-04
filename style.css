@@ -266,3 +266,36 @@ footer a:hover {
     /*Underlines on hover*/
     text-decoration: underline; 
 }
+
+/*Start of Design of Different Viewports*/
+
+/*Mobile Screens*/
+
+/*Setting to max 600px*/
+@media only screen and (max-width: 600px){
+    body{
+
+        /*adjusting font for smaller screens*/
+        font-size: 14px;
+    }
+
+    /*Change nav bar from horizontal to vertical*/
+    .navlist ul {
+        flex-direction: column;
+    }
+
+    .navlist ul li {
+        padding: 10px;
+    }
+
+    /*Reduce size of h1 font for smaller screens*/
+    #Home h1 {
+        font-size: 2rem;
+    }
+
+    /*Resize Buttons*/
+    #Home .btn{
+        padding: 0.6rem 1rem;
+        font-size: 1rem;
+    }
+}
