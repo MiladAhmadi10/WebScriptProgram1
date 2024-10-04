@@ -130,7 +130,7 @@ html {
 /* Contact Me Section */
 #Contacts {
     padding: 100px 20px;
-    background-color: rgb(100, 100, 255);
+    background: linear-gradient(360deg, rgb(40, 40, 44), rgb(100, 100, 255));
     display: flex;
     justify-content: center;
     align-items: center;
