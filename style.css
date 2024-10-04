@@ -222,8 +222,8 @@ footer {
     text-align: center;     /* Center text alignment*/
     padding: 20px 0;       /* Padding for top and bottom*/
 
-
-    position: sticky;     /*Allow footer to be positioned at the bottom of the page*/
+    /*Positions footer to be at the bottom of the page*/
+    position: relative;     
 
 
     
