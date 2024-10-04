@@ -217,10 +217,18 @@ html {
 
 /* Footer Styles */
 footer {
-    background-color: rgba(40, 40, 44); /* Background color for the footer */
-    color: white;           /* Text color for the footer*/
-    text-align: center;     /* Center text alignment*/
-    padding: 20px 0;       /* Padding for top and bottom*/
+
+    /*Background colour of footer*/
+    background-color: rgba(40, 40, 44); 
+
+    /*text colour*/
+    color: white;           
+
+    /*Aligning text in the center*/
+    text-align: center;     
+
+    /*Padding for top and bottom of footer*/
+    padding: 20px 0;       
 
     /*Positions footer to be at the bottom of the page*/
     position: relative;     
