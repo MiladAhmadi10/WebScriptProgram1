@@ -298,4 +298,15 @@ footer a:hover {
         padding: 0.6rem 1rem;
         font-size: 1rem;
     }
+
+    /*Making Section Titles maller for smaller screens*/
+    #About h1, #Projects h1, #Contacts h1
+    {
+        font-size: 2rem;
+    }
+
+    /*Adjusting contact form*/
+    #contactFrm{
+        padding: 1%;
+    }
 }
