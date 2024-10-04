@@ -121,9 +121,15 @@ html {
 
 #Projects p {
     font-size: 20px;
-    max-width: 800px; /* Limit paragraph width */
-    margin: 0 auto; /* Center the text */
-    line-height: 1.6; /* Improve readability */
+
+    /* Limit paragraph width */
+    max-width: 800px; 
+
+    /* Center the text */
+    margin: 0 auto; 
+
+    /*Affects Hieght of spaces in between text lines vertically*/
+    line-height: 1.7; 
 }
 
 /*Start of Contact Me Page */
@@ -154,7 +160,7 @@ html {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Form Group */
+/*Form Group*/
 .form-group {
     margin-bottom: 20px;
     display: flex;
@@ -163,14 +169,14 @@ html {
     text-align: left;
 }
 
-/* Form Labels */
+/*Form Labels*/
 #contactFrm label {
     font-size: 18px;
     margin-bottom: 8px;
     color: white;
 }
 
-/* Form Inputs */
+/*Form Inputs*/
 #contactFrm input[type="text"],
 #contactFrm input[type="email"],
 #contactFrm input[type="tel"],
@@ -184,8 +190,10 @@ html {
     color: white;
 }
 
-/* Input Focus Effect */
+/*Input Focus Effect*/
 #contactFrm input:focus,
+
+/*Changing Colour of Text Box When Being Focused On*/
 #contactFrm textarea:focus {
     outline: none;
     border-color: white;
