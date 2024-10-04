@@ -78,7 +78,7 @@ html {
 
 /* About Me Section */
 #About {
-    padding: 5% 5%; 
+    padding: 10% 5% 5%; 
     background-color: rgb(100, 100, 255);
     display: flex;
     justify-content: center;
