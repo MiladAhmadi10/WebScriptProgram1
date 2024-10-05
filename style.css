@@ -310,3 +310,69 @@ footer a:hover {
         padding: 1%;
     }
 }
+
+/*Start of Tablet Screen*/
+@media only screen and (min-width: 601px) and (max-width: 1024px){
+
+    /*Change Font Size for Tablet Screens*/
+    body{
+        font-size: 16px;
+    }
+
+    .navlist ul {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navlist ul li {
+        padding: 15px;
+    }
+
+    /*Increase size of headers for tablet screens*/
+    #Home h1{
+        font-size: 2.5rem;
+    }
+    #About h1, #Projects h1, #Contacts h1
+    {
+        font-size: 2.5rem;
+    }
+
+    /*Adjust Form padding*/
+    #contactFrm{
+        padding: 2%;
+    }
+
+}
+
+/*Start of Laptop/Desktop Screen*/
+@media only screen and (min-width: 1025px){
+
+    body{
+        font-size: 18px;
+    }
+
+    .navlist ul {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .navlist ul li{
+        padding: 20px;
+    }
+
+    #Home h1{
+        font-size: 3rem;
+    }
+
+    #About h1, #Projects h1, #Contacts h1
+    {
+        font-size: 3rem;
+    }
+
+    /*Adjusting form*/
+    #contactFrm{
+        padding: 3%;
+        max-width: 50%;
+    }
+}
+
